@@ -1,0 +1,26 @@
+[
+    {
+        "category": "Pokemon",
+        "name": "Bulbasaur",
+        "slug": "pokemon-bulbasaur",
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "Charmander",
+        "slug": "pokemon-charmander",
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "Squirtle",
+        "slug": "pokemon-squirtle",
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    }
+]
