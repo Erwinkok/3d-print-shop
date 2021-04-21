@@ -11,4 +11,16 @@ export const getProductById: (productId: number) => Promise<IProduct> = async (p
     if (product == null) {
         throw new NotFound();
     }
+
+    return product;
+};
+
+export const getProductBySlug: (slug: string) => Promise<IProduct> = async (slug) => {
+    const product = await Product.findOne({ slug });
+
+    if (product == null) {
+        throw new NotFound();
+    }
+
+    return product;
 };
