@@ -4,6 +4,8 @@ export interface IProduct extends Document {
     category: string;
     name: string;
     description: string;
+    slug: string;
+    images: string[];
     price: number;
     promotionPrice: number;
 }
@@ -20,6 +22,11 @@ const productSchema: Schema = new Schema({
     slug: {
         type: String,
         required: true,
+        unique: true,
+    },
+    images: {
+        type: Array,
+        required: false,
     },
     description: {
         type: String,
@@ -34,6 +41,6 @@ const productSchema: Schema = new Schema({
         type: Number,
         required: false,
     },
-});
+}, { timestamps: true });
 
 export const Product = mongoose.model<IProduct>("Product", productSchema);
