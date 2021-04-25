@@ -35,6 +35,21 @@ export default Vue.extend({
         await store.dispatch("fetchProducts", {limit: 6});
     },
 
+    head() {
+        const preloadImages = this.products.slice(0, 2).map((product: IProduct) => {
+            return {
+                rel: "preload",
+                as: "image",
+                href: product.images[0]
+            };
+        });
+
+        return {
+            title: "All products",
+            link: preloadImages
+        }
+    },
+
     computed: {
 
         ...mapState(["products"]),

@@ -20,7 +20,7 @@ import priceLocalString from "~/helpers/price-local-string";
 
 export default Vue.extend({
 
-    async fetch({store, params}) {
+    async asyncData({store, params}) {
         await store.dispatch("fetchProductBySlug", { slug: params.slug });
     },
 

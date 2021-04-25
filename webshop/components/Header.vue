@@ -40,7 +40,12 @@
                 <span class="hidden md:block">Account</span>
             </nuxt-link>
             <nuxt-link :to="'/cart'" class="navigation__link">
-                <span class="md:hidden">
+                <span class="md:hidden relative">
+                    <span
+                        v-if="amountOfCartItems"
+                        class="absolute -top-3 -right-4 w-6 h-6 flex justify-center items-center bg-green-400 text-white rounded-full ">
+                        {{ this.amountOfCartItems }}
+                    </span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="navigation__icon" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <polyline points="7 10 12 4 17 10" />
@@ -56,8 +61,17 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import {mapState} from "vuex";
 
-export default Vue.extend({})
+export default Vue.extend({
+   computed: {
+       ...mapState(["cart"]),
+
+       amountOfCartItems() {
+           return this.cart.items.length;
+       }
+   }
+});
 </script>
 
 <style scoped>

@@ -3,7 +3,10 @@ import {IProduct} from "~/types/product";
 
 const initialState = {
     currentProduct: <IProduct>{},
-    products: <IProduct[]>[]
+    products: <IProduct[]>[],
+    cart: {
+        items: <any>[],
+    }
 };
 
 export const state = () => (initialState);
@@ -19,9 +22,20 @@ export const mutations: MutationTree<RootState> = {
     SET_CURRENT_PRODUCT: (state, product: IProduct) => {
         state.currentProduct = product;
     },
+
+    ADD_TO_CART: (state, item: IProduct) => {
+        state.cart.items.push(item._id);
+    },
+
+    REMOVE_FROM_CART: (state, item:IProduct) => {
+        const index = state.cart.items.indexOf(item._id);
+
+        if (index !== -1) {
+            state.cart.items.splice(index, 1);
+        }
+    },
 };
 
-// @ts-ignore
 export const actions: ActionTree<RootState, RootState> = {
 
     async fetchProducts ({commit}, {limit}: {limit: number|null}) {

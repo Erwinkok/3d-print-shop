@@ -38,6 +38,7 @@ html {
 body {
     @apply bg-white pb-20 md:pb-0;
     overflow-x: hidden;
+    transition: all;
 }
 </style>
 
