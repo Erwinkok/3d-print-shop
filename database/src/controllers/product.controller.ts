@@ -5,7 +5,6 @@ import {NotFound} from "../exceptions/not-found";
 import {Error} from "mongoose";
 
 export const index = async (req: Request, res: Response) => {
-    console.log(req);
     const limit = req.query?.limit ? Number(req.query?.limit) : null;
     const products: IProduct[] = await ProductService.findAll(limit);
     return res.send(products);

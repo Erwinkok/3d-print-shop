@@ -2,7 +2,6 @@ import { NotFound } from "../exceptions/not-found";
 import { IProduct, Product } from "../models/product";
 
 const findAll: (limit: number|null) => Promise<IProduct[]> = async (limit) => {
-    console.log(limit);
     if (limit == null) {
         return Product.find({});
     }
