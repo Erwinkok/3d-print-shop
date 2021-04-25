@@ -1,0 +1,31 @@
+version: "3"
+services:
+  3d-print-shop-frontend:
+    image: 3d-print-shop-frontend
+    stdin_open: true
+    ports:
+      - "3000:3000"
+    networks:
+      - 3d-print-shop
+  3d-print-shop-database:
+    image: 3d-print-shop-database
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+    networks:
+      - 3d-print-shop
+  mongo:
+    image: mongo:3.6.23-xenial
+    ports:
+      - "27017:27017"
+    networks:
+      - 3d-print-shop
+    volumes:
+      - mongo-data:/data/db
+networks:
+  3d-print-shop:
+    driver: bridge
+volumes:
+  mongo-data:
+    driver: local
