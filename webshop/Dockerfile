@@ -1,15 +1,16 @@
-FROM node:lts
+FROM node:lts-alpine
 
-WORKDIR /usr/src/app
+RUN mkdir -p /usr/src/3d-print-shop/webshop
+WORKDIR /usr/src/3d-print-shop/webshop
 
-COPY ./package.json ./
-COPY ./package-lock.json ./
+RUN apk update && apk upgrade
+RUN apk add git
 
+COPY . /usr/src/3d-print-shop/webshop/
 RUN npm install
 
-COPY . .
+RUN npm run build
 
 EXPOSE 3000
 
-CMD ["npm", "run", "build"]
-CMD ["npm", "run", "start"]
+CMD ["npm", "start"]
