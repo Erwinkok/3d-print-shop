@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="bg-gray-50 p-4 flex justify-center items-center rounded relative">
-            <img :src="product.images[0]" class="h-4/5 w-auto" height="600" width="600"/>
+            <img :src="product.images[0]" class="w-auto" height="600" width="600"/>
             <div v-if="isInCart" @click.prevent="removeFromCart(product)"
                  class="absolute -top-2 -right-2 shadow-xl rounded-full border border-green-400 p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 text-gray-400" viewBox="0 0 24 24" stroke-width="1.5"
