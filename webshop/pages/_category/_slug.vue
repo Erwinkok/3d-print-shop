@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="flex justify-center px-4 py-12 bg-gray-50 rounded-b-3xl shadow-md">
+        <div class="flex justify-center p-12 bg-gray-50 rounded-b-3xl shadow-md">
             <img class="image" :src="this.product.images[0]"/>
         </div>
 
@@ -52,7 +52,7 @@ export default Vue.extend({
 <style scoped>
 
 .image {
-    @apply transition-all w-4/5 ease-in-out;
+    @apply transition-all w-full max-w-4/5 ease-in-out;
 }
 
 </style>
