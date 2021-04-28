@@ -1,24 +1,1100 @@
 [
     {
         "category": "Pokemon",
-        "name": "Bulbasaur",
+        "name": "bulbasaur",
         "slug": "pokemon-bulbasaur",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/1.png"
+        ],
         "description": "",
         "price": 25.0,
         "promotionPrice": null
     },
     {
         "category": "Pokemon",
-        "name": "Charmander",
+        "name": "ivysaur",
+        "slug": "pokemon-ivysaur",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/2.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "venusaur",
+        "slug": "pokemon-venusaur",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/3.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "charmander",
         "slug": "pokemon-charmander",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/4.png"
+        ],
         "description": "",
         "price": 25.0,
         "promotionPrice": null
     },
     {
         "category": "Pokemon",
-        "name": "Squirtle",
+        "name": "charmeleon",
+        "slug": "pokemon-charmeleon",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/5.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "charizard",
+        "slug": "pokemon-charizard",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/6.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "squirtle",
         "slug": "pokemon-squirtle",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/7.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "wartortle",
+        "slug": "pokemon-wartortle",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/8.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "blastoise",
+        "slug": "pokemon-blastoise",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/9.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "caterpie",
+        "slug": "pokemon-caterpie",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/10.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "metapod",
+        "slug": "pokemon-metapod",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/11.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "butterfree",
+        "slug": "pokemon-butterfree",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/12.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "weedle",
+        "slug": "pokemon-weedle",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/13.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "kakuna",
+        "slug": "pokemon-kakuna",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/14.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "beedrill",
+        "slug": "pokemon-beedrill",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/15.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "pidgey",
+        "slug": "pokemon-pidgey",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/16.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "pidgeotto",
+        "slug": "pokemon-pidgeotto",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/17.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "pidgeot",
+        "slug": "pokemon-pidgeot",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/18.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "rattata",
+        "slug": "pokemon-rattata",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/19.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "raticate",
+        "slug": "pokemon-raticate",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/20.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "spearow",
+        "slug": "pokemon-spearow",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/21.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "fearow",
+        "slug": "pokemon-fearow",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/22.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "ekans",
+        "slug": "pokemon-ekans",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/23.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "arbok",
+        "slug": "pokemon-arbok",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/24.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "pikachu",
+        "slug": "pokemon-pikachu",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/25.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "raichu",
+        "slug": "pokemon-raichu",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/26.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "sandshrew",
+        "slug": "pokemon-sandshrew",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/27.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "sandslash",
+        "slug": "pokemon-sandslash",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/28.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "nidoran-f",
+        "slug": "pokemon-f",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/29.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "nidorina",
+        "slug": "pokemon-nidorina",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/30.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "nidoqueen",
+        "slug": "pokemon-nidoqueen",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/31.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "nidoran-m",
+        "slug": "pokemon-m",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/32.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "nidorino",
+        "slug": "pokemon-nidorino",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/33.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "nidoking",
+        "slug": "pokemon-nidoking",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/34.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "clefairy",
+        "slug": "pokemon-clefairy",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/35.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "clefable",
+        "slug": "pokemon-clefable",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/36.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "vulpix",
+        "slug": "pokemon-vulpix",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/37.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "ninetales",
+        "slug": "pokemon-ninetales",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/38.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "jigglypuff",
+        "slug": "pokemon-jigglypuff",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/39.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "wigglytuff",
+        "slug": "pokemon-wigglytuff",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/40.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "zubat",
+        "slug": "pokemon-zubat",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/41.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "golbat",
+        "slug": "pokemon-golbat",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/42.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "oddish",
+        "slug": "pokemon-oddish",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/43.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "gloom",
+        "slug": "pokemon-gloom",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/44.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "vileplume",
+        "slug": "pokemon-vileplume",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/45.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "paras",
+        "slug": "pokemon-paras",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/46.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "parasect",
+        "slug": "pokemon-parasect",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/47.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "venonat",
+        "slug": "pokemon-venonat",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/48.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "venomoth",
+        "slug": "pokemon-venomoth",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/49.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "diglett",
+        "slug": "pokemon-diglett",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/50.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "dugtrio",
+        "slug": "pokemon-dugtrio",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/51.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "meowth",
+        "slug": "pokemon-meowth",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/52.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "persian",
+        "slug": "pokemon-persian",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/53.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "psyduck",
+        "slug": "pokemon-psyduck",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/54.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "golduck",
+        "slug": "pokemon-golduck",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/55.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "mankey",
+        "slug": "pokemon-mankey",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/56.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "primeape",
+        "slug": "pokemon-primeape",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/57.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "growlithe",
+        "slug": "pokemon-growlithe",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/58.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "arcanine",
+        "slug": "pokemon-arcanine",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/59.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "poliwag",
+        "slug": "pokemon-poliwag",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/60.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "poliwhirl",
+        "slug": "pokemon-poliwhirl",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/61.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "poliwrath",
+        "slug": "pokemon-poliwrath",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/62.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "abra",
+        "slug": "pokemon-abra",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/63.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "kadabra",
+        "slug": "pokemon-kadabra",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/64.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "alakazam",
+        "slug": "pokemon-alakazam",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/65.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "machop",
+        "slug": "pokemon-machop",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/66.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "machoke",
+        "slug": "pokemon-machoke",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/67.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "machamp",
+        "slug": "pokemon-machamp",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/68.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "bellsprout",
+        "slug": "pokemon-bellsprout",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/69.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "weepinbell",
+        "slug": "pokemon-weepinbell",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/70.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "victreebel",
+        "slug": "pokemon-victreebel",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/71.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "tentacool",
+        "slug": "pokemon-tentacool",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/72.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "tentacruel",
+        "slug": "pokemon-tentacruel",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/73.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "geodude",
+        "slug": "pokemon-geodude",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/74.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "graveler",
+        "slug": "pokemon-graveler",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/75.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "golem",
+        "slug": "pokemon-golem",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/76.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "ponyta",
+        "slug": "pokemon-ponyta",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/77.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "rapidash",
+        "slug": "pokemon-rapidash",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/78.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "slowpoke",
+        "slug": "pokemon-slowpoke",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/79.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "slowbro",
+        "slug": "pokemon-slowbro",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/80.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "magnemite",
+        "slug": "pokemon-magnemite",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/81.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "magneton",
+        "slug": "pokemon-magneton",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/82.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "farfetchd",
+        "slug": "pokemon-farfetchd",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/83.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "doduo",
+        "slug": "pokemon-doduo",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/84.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "dodrio",
+        "slug": "pokemon-dodrio",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/85.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "seel",
+        "slug": "pokemon-seel",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/86.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "dewgong",
+        "slug": "pokemon-dewgong",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/87.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "grimer",
+        "slug": "pokemon-grimer",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/88.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "muk",
+        "slug": "pokemon-muk",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/89.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "shellder",
+        "slug": "pokemon-shellder",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/90.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "cloyster",
+        "slug": "pokemon-cloyster",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/91.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "gastly",
+        "slug": "pokemon-gastly",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/92.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "haunter",
+        "slug": "pokemon-haunter",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/93.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "gengar",
+        "slug": "pokemon-gengar",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/94.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "onix",
+        "slug": "pokemon-onix",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/95.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "drowzee",
+        "slug": "pokemon-drowzee",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/96.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "hypno",
+        "slug": "pokemon-hypno",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/97.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "krabby",
+        "slug": "pokemon-krabby",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/98.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "kingler",
+        "slug": "pokemon-kingler",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/99.png"
+        ],
+        "description": "",
+        "price": 25.0,
+        "promotionPrice": null
+    },
+    {
+        "category": "Pokemon",
+        "name": "voltorb",
+        "slug": "pokemon-voltorb",
+        "images": [
+            "https://pokeres.bastionbot.org/images/pokemon/100.png"
+        ],
         "description": "",
         "price": 25.0,
         "promotionPrice": null

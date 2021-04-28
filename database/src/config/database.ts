@@ -9,8 +9,10 @@ if (!process.env.DB_CONTEXT) {
 
 const db = mongoose
     .connect(process.env.DB_CONTEXT!, {
+        autoIndex: true,
         useNewUrlParser: true,
         useUnifiedTopology: true,
+        useCreateIndex: true,
     })
     .then(() => console.log("Successfully connected to the database"))
     .catch((error) => console.log(error));

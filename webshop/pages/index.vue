@@ -1,80 +1,68 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        webshop
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <div class="container mt-6">
+        <Search />
+        <VerticalScrollingList :title="'Categories'">
+            <nuxt-link
+                v-for="(category, index) in this.categories"
+                :key="index"
+                class="px-4 py-2 border shadow-sm bg-white rounded-xl inline-flex text-sm"
+                :class="{ 'ml-3': index !== 0 }"
+                :to="category">
+                {{category}}
+            </nuxt-link>
+        </VerticalScrollingList>
+        <BestSellers :products="this.products" />
     </div>
-  </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
+import { mapState } from "vuex";
+import Search from "@/components/Search.vue";
+import VerticalScrollingList from "~/components/widgets/VerticalScrollingList.vue";
+import {IProduct} from "~/types/product";
+import BestSellers from "~/components/BestSellers.vue";
 
-export default Vue.extend({})
+export default Vue.extend({
+
+    components: {
+        BestSellers,
+        VerticalScrollingList,
+        Search,
+    },
+
+    async asyncData({store}) {
+        await store.dispatch("fetchProducts", {limit: 6});
+    },
+
+    head() {
+        const preloadImages = this.products.slice(0, 2).map((product: IProduct) => {
+            return {
+                rel: "preload",
+                as: "image",
+                href: product.images[0]
+            };
+        });
+
+        return {
+            title: "All products",
+            link: preloadImages
+        }
+    },
+
+    computed: {
+
+        ...mapState(["products"]),
+
+        categories(): any[] {
+            const categories = this.products.map((product: IProduct)=> product.category);
+            return [...new Set(categories)];
+        },
+    }
+});
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+<style lang="scss" scoped>
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
