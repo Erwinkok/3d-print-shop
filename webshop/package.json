@@ -1,0 +1,26 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "tw": "tailwind build src/style/app.css -o public/assets/css/app.css --watch",
+    "purge": "purgecss -c purgecss.config.js -o ./public/assets/css/",
+    "build": "npm run tw && npm run purge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "purgecss": "^4.0.3",
+    "tailwindcss": "^2.1.2"
+  }
+}
